@@ -43,22 +43,4 @@ Resources:
           - BucketKeyEnabled: true
             ServerSideEncryptionByDefault:
               SSEAlgorithm: AES256
-  s4cfttemplatestoreboma:
-    UpdateReplacePolicy: Retain
-    Type: AWS::S3::Bucket
-    DeletionPolicy: Retain
-    Properties:
-      PublicAccessBlockConfiguration:
-        RestrictPublicBuckets: false
-        IgnorePublicAcls: false
-        BlockPublicPolicy: false
-        BlockPublicAcls: false
-      BucketName: git3-bucket-boma-1234567
-      OwnershipControls:
-        Rules:
-          - ObjectOwnership: BucketOwnerPreferred
-      BucketEncryption:
-        ServerSideEncryptionConfiguration:
-          - BucketKeyEnabled: true
-            ServerSideEncryptionByDefault:
-              SSEAlgorithm: AES256
+  
