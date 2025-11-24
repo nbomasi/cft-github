@@ -12,7 +12,7 @@ Resources:
         IgnorePublicAcls: false
         BlockPublicPolicy: false
         BlockPublicAcls: false
-      BucketName: git-bucket-boma-1234567
+      BucketName: git-bucket-boma-1234567-12-26-24-11-2025
       VersioningConfiguration:
         Status: Enabled
       OwnershipControls:
@@ -34,7 +34,7 @@ Resources:
         IgnorePublicAcls: false
         BlockPublicPolicy: false
         BlockPublicAcls: false
-      BucketName: git2-bucket-boma-1234567
+      BucketName: git2-bucket-boma-1234567-12-26-24-11-2025
       OwnershipControls:
         Rules:
           - ObjectOwnership: BucketOwnerPreferred
