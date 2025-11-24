@@ -1,5 +1,6 @@
 template-file-path: boma-cft.yaml
-parameters:
-  BucketRegion: us-west-2
+parameters: {}
 tags:
   Department: IT
+  Project: GitSync-Deployment
+  Environment: Dev
