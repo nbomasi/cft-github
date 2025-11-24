@@ -2,7 +2,7 @@ Metadata:
   AWSToolsMetrics:
     IaC_Generator: git-pull
 Resources:
-  S3BucketIaccomposertest123:
+  S3Bucketgithubtest1:
     UpdateReplacePolicy: Retain
     Type: AWS::S3::Bucket
     DeletionPolicy: Retain
@@ -24,7 +24,7 @@ Resources:
             ServerSideEncryptionByDefault:
               SSEAlgorithm: AES256
 
-  s3cfttemplatestoreboma:
+  S3Bucketgithubtest2:
     UpdateReplacePolicy: Retain
     Type: AWS::S3::Bucket
     DeletionPolicy: Retain
